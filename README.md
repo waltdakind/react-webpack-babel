@@ -22,7 +22,10 @@ Then install the dependencies:
 ```
 > $ npm install
 ```
-
+Install materialize-css:
+```
+> $ npm install materialize-css
+```
 Install webpack and the development server:
 
 ```
