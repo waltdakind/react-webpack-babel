@@ -2,11 +2,13 @@
 Simple React Webpack Babel Starter Kit
 
 
-This is a simple [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/), [Materialize](http://materializecss.com/) and [Babel](https://babeljs.io/) application.
+This is a [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/), [Gulp](http://gulpjs.com/), [Materialize](http://materializecss.com/),  [Mongo](https://www.mongodb.com/), and [Babel](https://babeljs.io/) application.
+Based directly on: https://github.com/alicoding/react-webpack-babel.git 
 
 ### What's in it?
 
-Just a simple [index.jsx](./index.jsx), [webpack.config.js](./webpack.config.js) and [index.html](./public/index.html) file.
+Development files are in src and build directories contain the files created by the [Gulpfile](./gulpfile) for deployment or local hosting.
+
 
 ### To run
 
@@ -14,7 +16,7 @@ Just a simple [index.jsx](./index.jsx), [webpack.config.js](./webpack.config.js)
 * Fork and clone the project:
 
 ```
-> $ git clone https://github.com/alicoding/react-webpack-babel.git
+> $ git clone https://github.com/waltdakind/react-webpack-babel-materialize
 ```
 
 Then install the dependencies:
@@ -43,7 +45,11 @@ If you want to run with webpack-dev-server simply run this command:
 ```
 > $ npm run dev
 ```
+If you want to deply: 
 
+```
+> $ npm run deploy   (need to add this to gulpfile)
+```
 Open the web browser to `http://localhost:8888/`
 
 Please contribute to the project if you think this can be done better in anyway even for this README :)
