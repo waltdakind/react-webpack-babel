@@ -1,5 +1,5 @@
-# react-webpack-babel
-Simple React Webpack Babel Starter Kit
+# react-webpack-babel-materialize
+Simple React Webpack Babel Starter Kit Plus Materialize and Mongo
 
 
 This is a [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/), [Gulp](http://gulpjs.com/), [Materialize](http://materializecss.com/),  [Mongo](https://www.mongodb.com/), and [Babel](https://babeljs.io/) application.
